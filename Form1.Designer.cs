@@ -79,7 +79,7 @@
             groupBox1.Location = new Point(51, 195);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(437, 627);
-            groupBox1.TabIndex = 1;
+            groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "메뉴 선택";
             // 
@@ -121,7 +121,7 @@
             rdoChickenBurger.Location = new Point(17, 458);
             rdoChickenBurger.Name = "rdoChickenBurger";
             rdoChickenBurger.Size = new Size(190, 49);
-            rdoChickenBurger.TabIndex = 6;
+            rdoChickenBurger.TabIndex = 2;
             rdoChickenBurger.TabStop = true;
             rdoChickenBurger.Text = "치킨 버거";
             rdoChickenBurger.UseVisualStyleBackColor = true;
@@ -134,7 +134,7 @@
             rdoBulgogiBurger.Location = new Point(17, 281);
             rdoBulgogiBurger.Name = "rdoBulgogiBurger";
             rdoBulgogiBurger.Size = new Size(222, 49);
-            rdoBulgogiBurger.TabIndex = 5;
+            rdoBulgogiBurger.TabIndex = 1;
             rdoBulgogiBurger.TabStop = true;
             rdoBulgogiBurger.Text = "불고기 버거";
             rdoBulgogiBurger.UseVisualStyleBackColor = true;
@@ -147,7 +147,7 @@
             rdoHamBurger.Location = new Point(17, 142);
             rdoHamBurger.Name = "rdoHamBurger";
             rdoHamBurger.Size = new Size(147, 49);
-            rdoHamBurger.TabIndex = 4;
+            rdoHamBurger.TabIndex = 0;
             rdoHamBurger.TabStop = true;
             rdoHamBurger.Text = "햄버거";
             rdoHamBurger.UseVisualStyleBackColor = true;
@@ -163,7 +163,7 @@
             groupBox2.Location = new Point(533, 195);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(299, 452);
-            groupBox2.TabIndex = 2;
+            groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
             groupBox2.Text = "추가 옵션";
             // 
@@ -231,7 +231,7 @@
             lblTotalCost.Location = new Point(58, 417);
             lblTotalCost.Name = "lblTotalCost";
             lblTotalCost.Size = new Size(229, 51);
-            lblTotalCost.TabIndex = 1;
+            lblTotalCost.TabIndex = 0;
             lblTotalCost.Text = "총 금액: 0원";
             lblTotalCost.Click += lblTotalCost_Click;
             // 
@@ -271,6 +271,7 @@
             // 
             // Form1
             // 
+            AcceptButton = btnOrder;
             AutoScaleDimensions = new SizeF(14F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1431, 877);
